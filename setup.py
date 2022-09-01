@@ -23,10 +23,10 @@ setup(
     author='MoJoh',
     author_email='cryptoweirdo@protonmail.com',
     license='MIT',
-    url='http://github.com/innoteq/devpi-discord',
+    url='http://github.com/turbokadi/devpi-discord',
     keywords='devpi discord notification',
     description='Devpi plugin for sending Discord notifications',
-    long_description=open(os.path.abspath(os.path.join(os.path.dirname(__file__), 'README.md')), 'r').read(),
+    long_description=open(os.path.abspath(os.path.join(os.path.dirname(__file__), 'README.rst')), 'r').read(),
     classifiers=[
         'Development Status :: 3 - Alpha',
         "Intended Audience :: System Administrators",

@@ -1,5 +1,5 @@
 devpi-discord: Discord notification plugin for devpi-server
-=======================================================
+===========================================================
 
 Installation
 ------------
@@ -12,8 +12,6 @@ You can install it with::
 
 For ``devpi-server`` there is no configuration needed, as it will automatically discover the plugin through calling hooks using the setuptools entry points mechanism.
 
-Details about configuration below.
-
 Configuration
 -------------
 
@@ -23,7 +21,7 @@ devpi-discord can trigger Discord notifications upon package upload.
 
 Environment Variables:
 
-Optionally, you can pass environment variables to configure the plugin.
+You can also pass environment variables to configure the plugin. Yes it can be more simplier but it's less secure and flexible be aware of that
 
 - ``DISCORD_HOOK`` to adjust the Discord hook URL used. Defaults to the devpi discord_hook value above. (Note: discord_hook provided by devpi takes precedence. Setting both will default to the value specified in devpi)
 
